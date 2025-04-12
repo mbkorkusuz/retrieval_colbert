@@ -7,7 +7,7 @@ import numpy as np
 
 cross_encoder = CrossEncoder("cross-encoder/ms-marco-MiniLM-L12-v2") ## context window 512
 
-MODEL_BASE_URL = "https://9jb4dhts2y4rur-8000.proxy.runpod.net"
+MODEL_BASE_URL = ""
 MODEL_NAME = "c4ai-command-r-plus-GPTQ"
 
 llm = BaseChatOpenAI(
